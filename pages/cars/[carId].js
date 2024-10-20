@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import carsData from "@/data/carsData";
-import CarDetails from "@/components/templates/carDetails";
+import CarDetails from "@/components/templates/CarDetails";
 
 function CarDetail() {
   const router = useRouter();
