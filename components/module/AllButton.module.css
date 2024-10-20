@@ -1,0 +1,23 @@
+.container{
+    width: 440px;
+    margin: 0 auto;
+}
+.container a{
+    background-color: #befa00;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0 50px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+.container a:hover{
+    background-color: rgb(180, 180, 180);
+}
+@media (max-width:600px){
+    .container {
+        width: 320px;
+    }
+}

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  width: 440px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 50px auto;
+  padding: 5px;
+  justify-content: space-between;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #befa00;
+  margin: 5px 0;
+}
+
+.container button {
+  background-color: #befa00;
+  margin: 5px 0;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 320px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container button {
+    width: 100%;
+    margin: 5px;
+  }
+  .container div {
+    margin: 5px;
+  }
+}
